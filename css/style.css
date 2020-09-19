@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300;1,400;1,700;1,800&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width:100%;
+	display: block;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+header{
+	padding: 10px 0px;
+	align-items: center;
+	border-bottom: 2px solid #fdfafa;
+	
+
+}
+.logo{
+	width: 15%;
+	flex: 0 0 auto;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 80px
+}
+nav{
+	width: 85%;
+	flex: 0 0 auto;
+}
+nav ul{
+	display: flex;
+	justify-content:flex-end; 
+	flex-wrap: wrap;
+
+}
+nav ul li{
+	list-style: none
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size:18px; 
+	line-height: 2;
+	color: #6d7075;
+	font-weight:700;
+
+
+}
+nav ul li a:hover{} 
+
+
+
+.feature-section{
+	padding: 50px 0;
+
+
+}
+.container{
+	width:1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+
+
+	
+}
+.col{
+	padding: 15px;
+	width: 33.33%;
+	flex: 0 0 auto;
+}
+.feature{
+	padding:50px 30px; 
+
+}
+.feature p{
+	font-size:15px; 
+	line-height: 2;
+	color: #555;
+}
+.feature h2{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+
+}
+.feature img{
+	height: 180px;
+	object-fit: cover;
+	object-position: center;
+	margin: auto;
+}
+.color1{
+	background-color:#FDEBED;
+}
+.color2{
+	background-color: #EBF9F4;
+}
+.color3{
+	background-color: #FFF7E8;
+}
+.progect-complition-section{
+	padding-top:50px; 
+}
+.col1{
+	width: 50%;
+	flex:0 0 auto;
+	padding: 50px;
+
+}
+.progect-count{
+	text-align: right;
+}
+.progect-count h1{
+	font-size: 50px;
+	color: #F15666;
+}
+.progect-count p{
+	font-size:15px; 
+	line-height: 2;
+	color: #122A59;
+	max-width:350px;
+	margin-left: auto; 
+}
+.progect-content{}
+.progect-content h1{
+	font-size: 50px;
+	color: #122A59;
+	line-height: 1.5;
+	max-width:415px; 
+}
+
+
+.about-section{}
+.about-content{
+	text-align: center;
+	padding: 0px 225px;
+}
+.about-content h1 {
+	font-size: 50px;
+	color: #3F3D56;
+	line-height: 1.4;
+	margin-bottom: 10px;
+}
+.about-content p{
+	font-size:15px; 
+	line-height: 2;
+	color: #122A59;
+	font-weight:600;
+
+}
+.about-content img{
+    max-width: 550px;
+    margin: auto;
+    margin-top:30px; 
+}
+.about-content span{
+	color: #008AFF;
+}
+
+
+footer{
+	padding: 30px 0px;
+	background-color: #ddd;
+	text-align: center;
+
+}
+footer p{
+	color: #ff00f7;
+	font-size: 20px;
+
+}	
+footer p a{
+	color: blue;
+	text-decoration: none;
+	font-weight: 650;
+
+}	
